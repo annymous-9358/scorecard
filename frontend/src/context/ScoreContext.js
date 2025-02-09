@@ -2,7 +2,7 @@ import React, { createContext, useState, useContext, useEffect } from "react";
 import axios from "axios";
 
 const ScoreContext = createContext();
-const API_URL = "https://scorecard-backend-zrg3.onrender.com";
+const API_URL = "https://scorecard-backend-zrg3.onrender.com/api";
 
 export function useScores() {
   return useContext(ScoreContext);
